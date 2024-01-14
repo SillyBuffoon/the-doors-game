@@ -1,0 +1,41 @@
+.doors-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.image-wrapper {
+    display: inline-block;
+}
+
+.image-wrapper a {
+    text-decoration: none;
+}
+
+.doors-container img {
+    width: 300px;
+    height: auto;
+    margin: 0 4cm;
+    cursor: pointer;
+}
+
+.title-container {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
+
+.title-container .lost{
+    position: absolute;
+    top: 6cm;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 100px;
+    display: none;
+}

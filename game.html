@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Page</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="title-container">
+        <h1>Pick a door!</h1>
+        <p>Your highscore is: <span id="highscore">0</span></p>
+        <p>Your current score is: <span id="currentscore">0</span></p>
+        <h1 class="lost" id="losttitle">YOU LOST!</h1>
+    </div>
+    <div class="doors-container">
+        <div class="image-wrapper" id="doorslist">
+            <img class="door" data-door-number="1" src="media/doorplaceholder.png" alt="Image 1">
+            <img class="door" data-door-number="2" src="media/doorplaceholder.png" alt="Image 2">
+            <img class="door" data-door-number="3" src="media/doorplaceholder.png" alt="Image 3">
+            <!-- Add more clickable images as needed -->
+        </div>
+    </div>
+</body>
+</html>
